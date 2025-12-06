@@ -1,0 +1,75 @@
+# ----------------------------------------
+# Python cache and compiled files
+# ----------------------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ----------------------------------------
+# VS Code & local environment
+# ----------------------------------------
+.vscode/
+.env/
+venv/
+ENV/
+env/
+
+# ----------------------------------------
+# Data folders - IGNORE large FASTA/TXT
+# ----------------------------------------
+data1/
+data2/
+
+project_final_version/data1/
+project_final_version/data2/
+
+# ----------------------------------------
+# Output files & logs
+# ----------------------------------------
+output/
+project_final_version/output/
+*.log
+*.txt
+
+# ----------------------------------------
+# Temporary, generated, or checkpoint files
+# ----------------------------------------
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+*.zip
+
+# ----------------------------------------
+# Ignore large test results, csvs, ranked tables
+# ----------------------------------------
+*.csv
+
+# ----------------------------------------
+# Ignore compiled utility caches
+# ----------------------------------------
+project_final_version/scripts/*/__pycache__/
+scripts/*/__pycache__/
+
+project_final_version/scripts/utils/__pycache__/
+scripts/utils/__pycache__/
+
+# ----------------------------------------
+# Ignore entire old project archive
+# ----------------------------------------
+scripts/
+propozycja_rozwiazania.md
+
+# ----------------------------------------
+# Ignore PDFs except maybe final report
+# ----------------------------------------
+*.pdf
+
+# ----------------------------------------
+# Ignore pip / python build files
+# ----------------------------------------
+build/
+dist/
+*.egg-info/
